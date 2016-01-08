@@ -1,0 +1,138 @@
+[
+  {
+    "id": "broadleaf-commerce-login-functionality",
+    "description": "",
+    "name": "Broadleaf Commerce Login Functionality",
+    "keyword": "Feature",
+    "line": 1,
+    "elements": [
+      {
+        "after": [
+          {
+            "result": {
+              "duration": 16000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Mysteps.afterclass()"
+            }
+          }
+        ],
+        "id": "broadleaf-commerce-login-functionality;1.-valid-user-valid-password",
+        "before": [
+          {
+            "result": {
+              "duration": 3182755000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Mysteps.beforeclass()"
+            }
+          }
+        ],
+        "description": "",
+        "name": "1. Valid user valid password",
+        "keyword": "Scenario",
+        "line": 3,
+        "steps": [
+          {
+            "result": {
+              "duration": 81640000,
+              "status": "passed"
+            },
+            "name": "As a not valid  user",
+            "keyword": "Given ",
+            "line": 4,
+            "match": {
+              "location": "Mysteps.as_a_not_valid_user()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2983365000,
+              "status": "passed"
+            },
+            "name": "Browse to the application",
+            "keyword": "When ",
+            "line": 5,
+            "match": {
+              "location": "Mysteps.browse_to_the_application()"
+            }
+          },
+          {
+            "result": {
+              "duration": 26899000,
+              "status": "passed"
+            },
+            "name": "Broadleaf home page should show",
+            "keyword": "Then ",
+            "line": 6,
+            "match": {
+              "location": "Mysteps.broadleaf_home_page_should_show()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1145102000,
+              "status": "passed"
+            },
+            "name": "User click login button",
+            "keyword": "When ",
+            "line": 7,
+            "match": {
+              "location": "Mysteps.user_click_login_button()"
+            }
+          },
+          {
+            "result": {
+              "duration": 104173000,
+              "status": "passed"
+            },
+            "name": "I fill in the followin:",
+            "keyword": "And ",
+            "line": 10,
+            "match": {
+              "location": "Mysteps.i_fill_in_the_followin(DataTable)"
+            },
+            "comments": [
+              {
+                "value": "#login Info",
+                "line": 9
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "emailAdd",
+                  "grt_rb@hotmail.com"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "pass",
+                  "12345"
+                ],
+                "line": 12
+              }
+            ]
+          },
+          {
+            "result": {
+              "duration": 711995000,
+              "status": "passed"
+            },
+            "name": "Click login",
+            "keyword": "And ",
+            "line": 14,
+            "match": {
+              "location": "Mysteps.click_login()"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "HeatclinicLogin.feature"
+  }
+]

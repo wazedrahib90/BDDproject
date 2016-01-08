@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="8.235945">
+<testcase classname="Broadleaf Commerce Login Functionality" name="1. Valid user valid password" time="8.235945">
+<system-out><![CDATA[Given As a not valid  user..................................................passed
+When Browse to the application..............................................passed
+Then Broadleaf home page should show........................................passed
+When User click login button................................................passed
+And I fill in the followin:.................................................passed
+And Click login.............................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
