@@ -46,8 +46,7 @@ public class Mysteps{
 
 		@Then("^Broadleaf home page should show$")
 		public void broadleaf_home_page_should_show() throws Throwable {
-		 
-			heatclinic.homePage().showloginPage();
+		 			heatclinic.homePage().showloginPage();
 		}
 
 		@When("^User click login button$")
@@ -61,7 +60,7 @@ public class Mysteps{
 		public void i_fill_in_the_followin(DataTable Table) throws Throwable {
 			List<List<String>> data = Table.raw();
 			heatclinic.loginPage().enterEmailTextbox(data.get(0).get(1));
-			heatclinic.loginPage().enterpasswordTextbox(data.get(1).get(1));
+			heatclinic.loginPage().enterpasswordTextbox(data.get(2).get(1));
 		}
 
 		
